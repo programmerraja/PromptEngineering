@@ -1,3 +1,11 @@
+---
+title: "Prompt Engineering From First Principles: The Mechanics They Don't Teach You part-1"
+date: 2025-12-18T10:36:47.4747+05:30
+draft: true
+tags:
+---
+
+
 This is my new series on Prompt Engineering and it's different from everything else out there.
 
 Most blogs give you templates: "Try this prompt!" or "Use these 10 techniques!" That's not what we're doing here.
