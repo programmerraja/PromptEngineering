@@ -5,7 +5,6 @@ draft: true
 tags:
 ---
 
-
 This is my new series on Prompt Engineering and it's different from everything else out there.
 
 Most blogs give you templates: "Try this prompt!" or "Use these 10 techniques!" That's not what we're doing here.
@@ -14,12 +13,13 @@ We're going deep: **How do LLMs actually process your prompts? What makes a prom
 
 This series will give you the mental models to engineer prompts yourself, not just copy someone else's examples. Let's dive in.
 
-We going to have 4 parts (so far I think but may be in future we add more )
+We going to have 5 parts (so far I think but may be in future we add more )
 
 - **The Foundation - How LLMs Really Work**
 - **The Art & Science of Prompting**
-- **Boundaries, Limits, and Practical Mastery**
-- **Tips and Tricks**
+- **Prompting techniques and optimization**
+- **Prompt Evaluation and Scaling**
+- **Tips, Tricks, and Experience**
 
 Let's jump into Part 1.
 
@@ -70,6 +70,8 @@ The model can't work with text directly—it only understands numbers. Each toke
 Your tokens (now numbers) pass through the **Transformer architecture** layers of neural network computations. Here's where the attention mechanism kicks in, letting the model figure out which tokens relate to which.
 
 Example: In the sentence _"The bank of the river was muddy"_, the model's attention mechanism connects `bank` with `river` and `muddy` to understand we're talking about a riverbank, not a financial institution.
+
+Note: Currently we have some other emerging llm architectures like [\*Diffusion Models\*\*](https://www.ibm.com/think/topics/diffusion-models), [\*State Space Models\*](https://huggingface.co/blog/lbourdois/get-on-the-ssm-train), etc.. but for sake of simplicity i cover only **Transformer** based models.
 
 ### Step 4: Predict the Next Token (Probabilities)
 
