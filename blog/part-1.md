@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering From First Principles: The Mechanics They Don't Teach You part-1"
 date: 2025-12-18T10:36:47.4747+05:30
-draft: true
+draft: false
 tags:
 ---
 
@@ -71,7 +71,7 @@ Your tokens (now numbers) pass through the **Transformer architecture** layers o
 
 Example: In the sentence _"The bank of the river was muddy"_, the model's attention mechanism connects `bank` with `river` and `muddy` to understand we're talking about a riverbank, not a financial institution.
 
-Note: Currently we have some other emerging llm architectures like [\*Diffusion Models\*\*](https://www.ibm.com/think/topics/diffusion-models), [\*State Space Models\*](https://huggingface.co/blog/lbourdois/get-on-the-ssm-train), etc.. but for sake of simplicity i cover only **Transformer** based models.
+Note: Currently we have some other emerging llm architectures like [**Diffusion Models**](https://www.ibm.com/think/topics/diffusion-models), [**State Space Models**](https://huggingface.co/blog/lbourdois/get-on-the-ssm-train), etc.. but for sake of simplicity i cover only **Transformer** based models.
 
 ### Step 4: Predict the Next Token (Probabilities)
 
