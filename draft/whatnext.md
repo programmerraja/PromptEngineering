@@ -1,0 +1,1 @@
+Need to wait until i realy use some techniques and share that dont want to write what already in internet
